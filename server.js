@@ -14,6 +14,6 @@ app.get('*', (req, res)=>{
   res.sendFile(path.resolve(__dirname, 'build', 'index.html'));
 })
 
-app.listen(5000, ()=>{
+app.listen(80, ()=>{
   console.log('server started')
 })
