@@ -14,6 +14,6 @@ app.get('*', (req, res)=>{
   res.sendFile(path.resolve(__dirname, 'build', 'index.html'));
 })
 
-app.listen(80, ()=>{
+app.listen(443, ()=>{
   console.log('server started')
 })
